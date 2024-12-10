@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.hard;
 
 import java.util.*;
 
@@ -138,6 +138,8 @@ public class Leetcode1531 {
     }
 
     public static void main(String[] args) {
+        System.out.println("String Compression II");
+
         Leetcode1531 solution = new Leetcode1531();
         System.out.println(solution.getLengthOfOptimalCompression("aabaabbcbbbaccc", 6));
     }

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.hard;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -77,6 +77,8 @@ public class Leetcode1192 {
     }
 
     public static void main(String[] args) {
+        System.out.println("Cirital connections in a Network");
+
         Leetcode1192 lc1192 = new Leetcode1192();
         int[][] inputConnections = new int[][] {
                 {1,0},{2,0},{3,0},{4,1},{5,3},{6,1},{7,2},{8,1},{9,6},{9,3},

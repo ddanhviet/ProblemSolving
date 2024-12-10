@@ -1,14 +1,6 @@
-package leetcode;
+package leetcode.medium;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-}
+import leetcode.TreeNode;
 
 public class Leetcode236 {
 
@@ -37,6 +29,8 @@ public class Leetcode236 {
     }
 
     public static void main(String[] args) {
+        System.out.println("Lowest Common Ancestor of a Binary Tree");
+
         TreeNode defaultTest = new TreeNode(3);
         defaultTest.right = new TreeNode(1);
         defaultTest.right.left = new TreeNode(0);

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.hard;
 
 import java.util.Stack;
 
@@ -72,6 +72,8 @@ public class Leetcode224 {
     }
 
     public static void main(String[] args) {
+        System.out.println("Basic Calculator");
+
         Leetcode224 lc224 = new Leetcode224();
         System.out.println(lc224.calculate("(1+(4+5+2)-3)+(6+8)"));
     }

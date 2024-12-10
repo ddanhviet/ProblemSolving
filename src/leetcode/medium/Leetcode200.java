@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.medium;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -91,6 +91,8 @@ public class Leetcode200 {
     }
 
     public static void main(String[] args) {
+        System.out.println("Number of Islands");
+
         char[][] grid = new char[][]{
                 {'1','1','1','1','0'},
                 {'1','1','0','1','0'},
